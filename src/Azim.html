@@ -1,23 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./output.css">
 </head>
+
 <body class="font-serif ">
-    <nav class="h-[800px] flex flex-col gap-5 items-center justify-center" style="background-image: url(./Azim.images/Rectangle\ 37\ \(1\).png);background-repeat: no-repeat;background-size: cover;">
+    <nav class="h-[800px] flex flex-col gap-5 items-center justify-center"
+        style="background-image: url(./Azim.images/Rectangle\ 37\ \(1\).png);background-repeat: no-repeat;background-size: cover;">
         <div class="flex lg:flex-row flex-col items-center gap-5">
 
             <p class="lg:text-[120px] text-[white] text-[40px] font-[800] lg:w-fit w-[300px]">ИПОТЕКА ОТ </p>
             <span class="text-[#EFA359] lg:text-[120px] text-[40px]  bg-[white] p-3 w-fit ">4%</span>
         </div>
         <div>
-            <p class="lg:text-[27px] font-[400] text-[18px] text-[white] w-[311px] lg:w-[886px] text-center  ">Уникальные ипотечные программы на специальных условиях. Просто заполните анкету и получите одобрение.</p>
-            <p class="lg:text-[27px] text-[18px] font-[700] text-[white] text-center">Всего шаг — до дома вашей мечты!</p>
+            <p class="lg:text-[27px] font-[400] text-[18px] text-[white] w-[311px] lg:w-[886px] text-center  ">
+                Уникальные ипотечные программы на специальных условиях. Просто заполните анкету и получите одобрение.
+            </p>
+            <p class="lg:text-[27px] text-[18px] font-[700] text-[white] text-center">Всего шаг — до дома вашей мечты!
+            </p>
         </div>
-        <button class="py-3 px-10 bg-[#EFA359] mt-10 text-white w-fit text-[18px] font-[700]">Расчитать стоимость</button>
+        <button class="py-3 px-10 bg-[#EFA359] mt-10 text-white w-fit text-[18px] font-[700]">Расчитать
+            стоимость</button>
     </nav>
+    <main>
+        <section class="max-w-360 m-auto  mt-25 flex gap-50 lg:p-0 p-5">
+            <div class="w-fit">
+                <p class="text-[46px] font-[500]">Ипотека</p>
+                <div class="flex gap-5 mt-10">
+                    <div>
+                        <p class="lg:text-[30px] text-[18px] font-[400]">Вид недвижимости</p>
+                        <select name="" id="" class="lg:w-[283px] w-[193px] h-[80px] p-5 mt-3 bg-[#F7F8F8]">
+                            <option value="">Все</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p class="lg:text-[30px] text-[18px] font-[400]">Проект</p>
+                        <select name="" id="" class="lg:w-[243px] w-[100px] h-[80px] mt-3 p-5 bg-[#F7F8F8]">
+                            <option value="">Все</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <p class="text-[30px] font-[400] mt-7">Вид ипотеки</p>
+                    <select name="" id="" class="lg:w-[539px] w-full h-[80px] mt-3 p-5 bg-[#F7F8F8]">
+                        <option value="">Все</option>
+                    </select>
+                </div>
+                <div>
+                    <p class="text-[30px] font-[400] mt-7">Стоимость</p>
+                    <div class="lg:w-[539px] w-full h-[80px] mt-3 p-5 bg-[#F7F8F8]">
+                        <p class="text-[27px] font-[400]">3 000 000 </p>
+                    </div>
+                </div>
+                <div>
+                    <p class="text-[30px] font-[400] mt-7">Первоначальный взнос</p>
+                    <div class="lg:w-[539px] w-full h-[80px] mt-3 p-5 bg-[#F7F8F8]">
+                        <p class="text-[27px] font-[400]">2 000 000 </p>
+                    </div>
+                </div>
+                <div>
+                    <p class="text-[30px] font-[400] mt-7">Ежемесячный платёж</p>
+                    <div class="lg:w-[539px] w-full h-[80px] mt-3 p-5 bg-[#F7F8F8]">
+                        <p class="text-[27px] font-[400]">60 000 </p>
+                    </div>
+                </div>
+                <button class="py-5 px-10 bg-[#EFA359] mt-10 text-white w-full text-[18px] font-[700]">
+                    Рассчитать платёж</button>
+            </div>
+            <div class=" flex-wrap gap-10 lg:flex hidden">
+                <div class="border-2 border-[#AAAAAA] w-[309px] h-[491px] p-5">
+                    <div class="flex items-center gap-2">
+                        <img src="./Azim.images/Vector (44).png" alt="">
+                        <p class="text-[23px] font-[700]">АО “Альфа банк”</p>
+                    </div>
+                    <p class="text-[24px] font-[400] text-[#353535] mt-20">Ставка</p>
+                    <p class="text-[46px] font-[700]">4,1 %</p>
+                    <p class="text-[30px] font-[400]">от 4 000 / мес </p>
+                    <p class="text-[24px] font-[400] text-[#353535] mt-10">Программа</p>
+                    <p class="text-[30px] font-[400]">Семейная</p>
+                </div>
+                <div class="border-2 border-[#AAAAAA] w-[309px] h-[491px] p-5">
+                    <div class="flex items-center gap-2">
+                        <img src="./Azim.images/Vector (44).png" alt="">
+                        <p class="text-[23px] font-[700]">АО “Альфа банк”</p>
+                    </div>
+                    <p class="text-[24px] font-[400] text-[#353535] mt-20">Ставка</p>
+                    <p class="text-[46px] font-[700]">4,1 %</p>
+                    <p class="text-[30px] font-[400]">от 4 000 / мес </p>
+                    <p class="text-[24px] font-[400] text-[#353535] mt-10">Программа</p>
+                    <p class="text-[30px] font-[400]">Семейная</p>
+                </div>
+                <div class="border-2 border-[#AAAAAA] w-[309px] h-[491px] p-5">
+                    <div class="flex items-center gap-2">
+                        <img src="./Azim.images/Vector (44).png" alt="">
+                        <p class="text-[23px] font-[700]">АО “Альфа банк”</p>
+                    </div>
+                    <p class="text-[24px] font-[400] text-[#353535] mt-20">Ставка</p>
+                    <p class="text-[46px] font-[700]">4,1 %</p>
+                    <p class="text-[30px] font-[400]">от 4 000 / мес </p>
+                    <p class="text-[24px] font-[400] text-[#353535] mt-10">Программа</p>
+                    <p class="text-[30px] font-[400]">Семейная</p>
+                </div>
+                <div class="border-2 border-[#AAAAAA] w-[309px] h-[491px] p-5">
+                    <div class="flex items-center gap-2">
+                        <img src="./Azim.images/Vector (44).png" alt="">
+                        <p class="text-[23px] font-[700]">АО “Альфа банк”</p>
+                    </div>
+                    <p class="text-[24px] font-[400] text-[#353535] mt-20">Ставка</p>
+                    <p class="text-[46px] font-[700]">4,1 %</p>
+                    <p class="text-[30px] font-[400]">от 4 000 / мес </p>
+                    <p class="text-[24px] font-[400] text-[#353535] mt-10">Программа</p>
+                    <p class="text-[30px] font-[400]">Семейная</p>
+                </div>
+
+            </div>
+        </section>
+        <section
+            class="bg-[#F2F2F2] h-[500px] lg:h-[452px] lg:p-0 p-5 lg:flex-row flex-col justify-between flex items-center max-w-360 m-auto mt-25">
+            <div class="flex flex-col gap-10 pl-0 lg:pl-15">
+                <p class="lg:text-[46px] text-[30px] font-[500] lg:font-[700]">Ипотечные кредиты</p>
+                <p class="lg:w-[496px] w-[274px] text-[14px]  lg:text-[20px] font-[400]">Выгодная ипотечная программы и
+                    специальные условия. Просто заполните анкету и получите одобрение.
+                    Всего один шаг, и дом — ваш. Ставка действует весь срок до 30 лет при сумме кредита до 100 млн
+                    рублей и первом взносе от 13,7%.</p>
+                <button class="py-5 px-10 border-2 border-[#EFA359]  w-fit text-[18px] font-[700]">
+                    Рассчитать платёж</button>
+            </div>
+            <img src="./Azim.images/Rectangle 144.png" alt="" class="lg:m-0 mt-10">
+        </section>
+        <section class="max-w-360 m-auto lg:flex hidden mt-15  justify-between">
+            <div class="w-[605px] h-[539px] bg-[#F2F2F2] flex items-center justify-between">
+                <div class="pl-10 flex flex-col gap-5">
+                    <p class="text-[40px] font-[500] w-[270px]">Семейная ипотека</p>
+                    <p class="w-[264px] text-[20px] font-[400]">Воспользоваться программой «Семейная ипотека» возможно
+                        до 1 июля 2024 года при рождении первого
+                        ребенка или последующих детей.</p>
+                    <button class="py-5 px-10 border-2 border-[#EFA359]  w-fit text-[18px] font-[700]">
+                        Рассчитать платёж</button>
+                </div>
+                <img src="./Azim.images/Rectangle 147.png" alt="">
+            </div>
+            <div class="w-[605px] h-[539px] bg-[#F2F2F2] flex items-center justify-between">
+                <div class="pl-10 flex flex-col gap-5">
+                    <p class="text-[40px] font-[500] w-[270px]">Господержка
+                        2023</p>
+                    <p class="w-[264px] text-[20px] font-[400]">Воспользоваться программой «Семейная ипотека» возможно
+                        до 1 июля 2024 года при рождении первого
+                        ребенка или последующих детей.</p>
+                    <button class="py-5 px-10 border-2 border-[#EFA359]  w-fit text-[18px] font-[700]">
+                        Рассчитать платёж</button>
+                </div>
+                <img src="./Azim.images/Rectangle 147.png" alt="">
+            </div>
+        </section>
+        <section
+            class="bg-[#F2F2F2] lg:flex hidden h-[500px] lg:h-[462px] lg:p-0 p-5 lg:flex-row flex-col justify-between  items-center max-w-360 m-auto mt-25">
+            <div class="flex flex-col gap-5 pl-0 lg:pl-15">
+                <p class="lg:text-[46px] text-[30px] font-[500] lg:font-[700]">IT специалистам</p>
+                <p class="lg:w-[496px] w-[274px] text-[14px]  lg:text-[20px] font-[400]">Оформить ипотеку по сниженной
+                    ставке может гражданин России, трудоустроенный в компании, которая работает в сфере информационных
+                    технологий. Возраст — от 18 до 50 лет включительно.
+                    Стаж — не менее 3 месяцев на текущем месте работы.</p>
+                <button class="py-5 px-10 border-2 border-[#EFA359]  w-fit text-[18px] font-[700]">
+                    Рассчитать платёж</button>
+            </div>
+            <img src="./Azim.images/Rectangle 144.png" alt="" class="lg:m-0 mt-10">
+        </section>
+        <section class="max-w-360 m-auto mt-25 lg:block hidden">
+            <div class="flex items-center justify-between">
+                <p class="text-[46px] font-[700]">Ответы на <span class="text-[#EFA35A]">Вопросы</span></p>
+                <button class="py-5 px-10  bg-[#EFA359]  w-fit text-[18px] font-[700]">
+                    Перезвоните мне</button>
+            </div>
+            <div class="bg-[#F2F2F2] py-10 mt-15" >
+                <div class="max-w-330 m-auto flex flex-col gap-5">
+                    <div class="flex items-center justify-between">
+                        <p class="w-[800px] text-[30px] font-[700]">Можно ли использовать материнский капитал для
+                            первоначального взноса?</p>
+                        <img src="./Azim.images/Group 213.png" alt="">
+                    </div>
+                    <p class="text-[20px] font-[400] w-[900px]">Да, возможно. Если средств материнского капитала не хватает для первоначального взноса, то вы
+                        можете
+                        добавить собственные средства.
+                    </p>
+                    <p class="text-[20px] font-[400] w-[900px]">После рассмотрения пакета документов банк рассчитывает сумму кредита, который он может выдать на
+                        данных условиях. После этого возможны два варианта:</p>
+
+                    <p class="text-[20px] font-[400] w-[900px]">— увеличение максимальной суммы кредита на величину материнского капитала с автоматическим
+                        уменьшением первоначального взноса;</p>
+                    <p class="text-[20px] font-[400] w-[900px]">
+                        — использование материнского капитала для первоначального взноса без увеличения суммы кредита.
+                    </p>
+                </div>
+            </div>
+             <div class="bg-[#F2F2F2] py-10 mt-10" >
+                <div class="max-w-330 m-auto flex flex-col gap-5">
+                    <div class="flex items-center justify-between">
+                        <p class="w-[800px] text-[30px] font-[700]">Нужно ли привозить бумажные документы или все можно отправить электронно?</p>
+                        <img src="./Azim.images/Group 213.png" alt="">
+                    </div>
+                    <p class="text-[20px] font-[400] w-[900px]">Для подачи заявки на ипотеку достаточно сканов или фото всех документов. Анкету на кредит также можно подписать дистанционно.
+                    </p>
+                </div>
+            </div>
+             <div class="bg-[#F2F2F2] py-10 mt-10" >
+                <div class="max-w-330 m-auto flex flex-col gap-5">
+                    <div class="flex items-center justify-between">
+                        <p class="w-[800px] text-[30px] font-[700]">Есть ли требование к гражданству?</p>
+                        <img src="./Azim.images/Group 213.png" alt="">
+                    </div>
+                    <p class="text-[20px] font-[400] w-[900px]">По стандартным программам требования к гражданству нет. Ипотека с Господдержкой и Семейная ипотека распространяется только на граждан РФ.
+                    </p>
+                </div>
+            </div>
+            <div class="bg-[#F2F2F2] py-10 mt-10" >
+                <div class="max-w-330 m-auto flex flex-col gap-5">
+                    <div class="flex items-center justify-between">
+                        <p class="w-[714px] text-[30px] font-[700]">Я работаю неофициально. У меня есть шанс получить ипотеку?</p>
+                        <img src="./Azim.images/Group 213.png" alt="">
+                    </div>
+                    <p class="text-[20px] font-[400] w-[900px]">Да, ипотеку получить возможно. Практические все наши банки-партнеры могут рассмотреть заявку на ипотечный кредит по двум документам, без предоставления документов о трудоустройстве. Для этого необходимо заполнить анкету, паспорт и СНИЛС.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
